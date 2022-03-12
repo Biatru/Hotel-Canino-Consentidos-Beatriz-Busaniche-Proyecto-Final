@@ -96,6 +96,42 @@ h2 {
       display: none;
     }
   }
+  /*Estilos de la seccion nosotros*/
+  .seccionNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 70px 0 0 70px;
+  }
+  .fotoNosotros1{
+    background: url(./imagenes/veterinaria2.jpg);
+    width: 90%;
+  }
+  .seccionNosotros div img {
+    width: 80%;
+    height: 700px;
+    border-radius: 10px;
+  }
+  .seccionNosotros div p {
+    font-size: 30px;
+    margin: 10px 10px;
+    color: #3d7e7e;
+    text-align: center;
+  }
+  .seccionNosotros div h2 {
+    font-size: 40px;
+    margin: 10px 0;
+    color: #3d7e7e;
+    text-align: center;
+  }
+  
+  @media (max-width: 700px) {
+    .seccionNosotros {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+  }
   /*Estilos de la seccion galeria*/
 .gallery-container{
   display: grid;
