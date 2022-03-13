@@ -1,0 +1,32 @@
+.seccionNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 70px 0 0 70px;
+    div{
+        img {
+            width: 80%;
+            height: 700px;
+            border-radius: 10px;
+        }
+        p {
+            font-size: 30px;
+            margin: 10px 10px;
+            color:$color2;
+            text-align: center;
+          }
+        h2 {
+            font-size: 40px;
+            margin: 10px 0;
+            color:$color2;
+            text-align: center;
+          }
+    }
+  }
+@media (max-width: 768px) {
+    .seccionNosotros {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+  }

@@ -1,0 +1,18 @@
+#navbarSupportedContent {
+    ul {
+      li{ 
+        a {
+    color:$color2;
+    font-size:30px;
+         }
+       }
+    }
+}
+.container-fluid {
+  a{
+      img:hover{
+  transform: scale(1.1);
+}
+}
+}
+

@@ -1,0 +1,63 @@
+.carousel-inner{
+    max-height: 60rem;
+  }
+  .carousel-item {
+       p{
+   position: absolute;
+   font-size: 50px;
+   color:$color1;
+   margin-left: 900px;
+   margin-top: 100px;
+  }
+}
+@media (max-width: 1000px) {
+    .carousel-item {
+         p{
+   position: absolute;
+   font-size: 30px;
+   color:$color1;
+   margin-left: 250px;
+   margin-top: 100px;
+    }
+  }
+}
+  .row {
+    img {
+      margin: 0px;
+      border-radius: 10px;
+      &:first-of-type{
+        margin-left: 20px;
+   }
+}
+}
+.ubicacion{
+    height: 350px;
+    margin-bottom: 40px;
+    width: 100%;
+    background-image:-webkit-linear-gradient($degradadogris);
+    background-image:-moz-linear-gradient($degradadogris);
+    background-image:-o-linear-gradient($degradadogris);
+    background-image:-ms-linear-gradient($degradadogris);
+  }  
+  .ubicacion {
+    .content{
+    width: 40%;
+    padding: 30px 0 0px 60px;
+    color: $color2;
+  }
+  h3{
+    font-size: 35px;
+  }
+  p{
+    margin: 10px 0px 20px 0px;
+    font-size: 30px;
+  }
+  .mapa{
+    margin-left: 20px ;
+  }
+}
+@media (max-width: 768px) {
+    .mapa{
+      display: none;
+    }
+  }

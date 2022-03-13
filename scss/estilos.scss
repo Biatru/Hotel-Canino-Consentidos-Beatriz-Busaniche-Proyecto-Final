@@ -1,0 +1,40 @@
+@import "variables";
+@import "navegacionyfooter";
+@import "paginicioycontacto";
+@import "_galeria";
+@import "nosotros";
+/*ESTILOS GENERALES PARA TODAS LAS PAGINAS*/
+*{
+    box-sizing: border-box;
+ }
+body {
+    background: $color1;
+    font-family: $letra;
+    margin:0%;
+}
+p{
+  color:$color2;
+}
+h1{
+    color:$color2;
+    font-size: 60px;
+}
+h2 {
+    font-size: 60px;
+    margin: 10px 0;
+    color: $color2;
+    position: relative;
+    animation-name: fade;
+    animation-duration: 20s;
+}
+@keyframes fade {
+    0% {
+    left: 0px;
+    }
+    50% {
+    left: 50px;
+    }
+    100% {
+    left: 0px;
+    }
+  }
