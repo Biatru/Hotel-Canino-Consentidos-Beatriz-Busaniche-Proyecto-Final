@@ -30,7 +30,7 @@
    }
 }
 }
-.ubicacion{
+  .ubicacion {
     height: 350px;
     margin-bottom: 40px;
     width: 100%;
@@ -38,24 +38,22 @@
     background-image:-moz-linear-gradient($degradadogris);
     background-image:-o-linear-gradient($degradadogris);
     background-image:-ms-linear-gradient($degradadogris);
-  }  
-  .ubicacion {
     .content{
     width: 40%;
     padding: 30px 0 0px 60px;
     color: $color2;
+    h3{
+      font-size: 35px;
+    }
+    p{
+      margin: 10px 0px 20px 0px;
+      font-size: 30px;
+    }
   }
-  h3{
-    font-size: 35px;
-  }
-  p{
-    margin: 10px 0px 20px 0px;
-    font-size: 30px;
   }
   .mapa{
     margin-left: 20px ;
   }
-}
 @media (max-width: 768px) {
     .mapa{
       display: none;

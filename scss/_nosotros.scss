@@ -4,25 +4,27 @@
     gap: 40px;
     margin: 70px 0 0 70px;
     div{
-        img {
-            width: 80%;
-            height: 700px;
-            border-radius: 10px;
-        }
-        p {
-            font-size: 30px;
-            margin: 10px 10px;
-            color:$color2;
-            text-align: center;
-          }
         h2 {
             font-size: 40px;
             margin: 10px 0;
             color:$color2;
             text-align: center;
-          }
+        }
     }
   }
+.doctor {
+  width: 80%;
+  height: 700px;
+  border-radius: 10px;
+}
+.vete1 {
+  @extend .doctor;
+  box-shadow: 2px 2px 10px #000;
+}
+.vete2 {
+  @extend .doctor;
+  box-shadow: 2px 2px 10px #fff;
+}
 @media (max-width: 768px) {
     .seccionNosotros {
       display: grid;
@@ -30,3 +32,11 @@
       gap: 30px;
     }
   }
+.Nosotros1{
+  @include Nosotros (10px 10px);
+  color: map-get($colores, primario);
+}
+.Nosotros2{
+  @include Nosotros (50px 50px);
+  color: map-get($colores, secundario);
+}

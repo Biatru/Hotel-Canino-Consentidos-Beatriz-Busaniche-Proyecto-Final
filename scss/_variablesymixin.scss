@@ -1,0 +1,16 @@
+$color1:  rgb(226, 218, 218);
+$color2:rgb(61, 126, 126);
+$degradadogris:30deg, #FFFFFF,#666;
+$letra:"Caveat", cursive;
+ /*Mixins*/
+ @mixin Nosotros ($margen) {
+    margin: ($margen);
+    font-size: 30px;
+    color:$color2;
+    text-align: center;
+  }
+/*Map-Map-get*/
+$colores: (
+  primario: rgb(61, 200, 165),
+  secundario:rgb(19, 100, 167),
+)

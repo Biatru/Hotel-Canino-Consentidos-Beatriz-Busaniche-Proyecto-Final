@@ -1,3 +1,5 @@
+/*Mixins*/
+/*Map-Map-get*/
 #navbarSupportedContent ul li a {
   color: #3d7e7e;
   font-size: 30px;
@@ -45,20 +47,20 @@
   background-image: -o-linear-gradient(30deg, #FFFFFF, #666);
   background-image: -ms-linear-gradient(30deg, #FFFFFF, #666);
 }
-
 .ubicacion .content {
   width: 40%;
   padding: 30px 0 0px 60px;
   color: #3d7e7e;
 }
-.ubicacion h3 {
+.ubicacion .content h3 {
   font-size: 35px;
 }
-.ubicacion p {
+.ubicacion .content p {
   margin: 10px 0px 20px 0px;
   font-size: 30px;
 }
-.ubicacion .mapa {
+
+.mapa {
   margin-left: 20px;
 }
 
@@ -150,22 +152,25 @@
   gap: 40px;
   margin: 70px 0 0 70px;
 }
-.seccionNosotros div img {
-  width: 80%;
-  height: 700px;
-  border-radius: 10px;
-}
-.seccionNosotros div p {
-  font-size: 30px;
-  margin: 10px 10px;
-  color: #3d7e7e;
-  text-align: center;
-}
 .seccionNosotros div h2 {
   font-size: 40px;
   margin: 10px 0;
   color: #3d7e7e;
   text-align: center;
+}
+
+.doctor, .vete2, .vete1 {
+  width: 80%;
+  height: 700px;
+  border-radius: 10px;
+}
+
+.vete1 {
+  box-shadow: 2px 2px 10px #000;
+}
+
+.vete2 {
+  box-shadow: 2px 2px 10px #fff;
 }
 
 @media (max-width: 768px) {
@@ -175,6 +180,22 @@
     gap: 30px;
   }
 }
+.Nosotros1 {
+  margin: 10px 10px;
+  font-size: 30px;
+  color: #3d7e7e;
+  text-align: center;
+  color: #3dc8a5;
+}
+
+.Nosotros2 {
+  margin: 50px 50px;
+  font-size: 30px;
+  color: #3d7e7e;
+  text-align: center;
+  color: #1364a7;
+}
+
 /*ESTILOS GENERALES PARA TODAS LAS PAGINAS*/
 * {
   box-sizing: border-box;

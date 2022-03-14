@@ -1,8 +1,8 @@
-@import "variables";
-@import "navegacionyfooter";
-@import "paginicioycontacto";
+@import "_variablesymixin";
+@import "_navegacionyfooter";
+@import "_paginicioycontacto";
 @import "_galeria";
-@import "nosotros";
+@import "_nosotros";
 /*ESTILOS GENERALES PARA TODAS LAS PAGINAS*/
 *{
     box-sizing: border-box;
