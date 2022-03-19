@@ -59,3 +59,16 @@
       display: none;
     }
   }
+  @media (max-width: 700px) {
+    .entrada {
+      justify-content: flex-start;
+    }
+   .secciones{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .secciones h2 {
+    font-size: 40px;
+    margin: 10px 0 0 30px;
+    color: rgb(61, 126, 126);
+  }
+}
