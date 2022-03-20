@@ -1,9 +1,7 @@
-@import "_variablesymixin";
+@import "_variables";
 @import "_navegacionyfooter";
 @import "_paginicioycontacto";
 @import "_galeria";
-@import "_nosotros";
-@import "_servicios";
 /*ESTILOS GENERALES PARA TODAS LAS PAGINAS*/
 *{
     box-sizing: border-box;
@@ -14,7 +12,8 @@ body {
     margin:0%;
 }
 p{
-  color:$color2;
+  color: $color2;
+  font-size: 30px;
 }
 h1{
     color:$color2;
