@@ -1,27 +1,7 @@
 .carousel-inner{
     max-height: 60rem;
   }
-  .carousel-item {
-       p{
-   position: absolute;
-   font-size: 50px;
-   color:$color1;
-   margin-left: 900px;
-   margin-top: 100px;
-  }
-}
-@media (max-width: 1000px) {
-    .carousel-item {
-         p{
-   position: absolute;
-   font-size: 30px;
-   color:$color1;
-   margin-left: 250px;
-   margin-top: 100px;
-    }
-  }
-}
-  .row {
+.row {
     img {
       margin: 0px;
       border-radius: 10px;
