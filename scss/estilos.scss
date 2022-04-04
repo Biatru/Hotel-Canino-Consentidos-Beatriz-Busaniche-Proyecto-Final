@@ -7,20 +7,24 @@
     box-sizing: border-box;
  }
 body {
-    background: $color1;
-    font-family: $letra;
+    background:$color1;
+    font-family:$letra;
     margin:0%;
 }
 p{ 
   color: $color2;
   font-size: 30px;
 }
+.lead {
+    font-size: 30px; 
+    
+}
 h1{
     color:$color2;
     font-size: 60px;
 }
 h2 {
-    font-size: 60px;
+    font-size: 45px;
     margin: 10px 0;
     color: $color2;
     position: relative;
@@ -35,6 +39,6 @@ h2 {
     left: 50px;
     }
     100% {
-    left: 0px;
+    left: 50px;
     }
-  }
+}
