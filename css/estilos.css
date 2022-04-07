@@ -7,6 +7,11 @@
   transform: scale(1.1);
 }
 
+@media (max-width: 462) {
+  .logo {
+    margin-left: 10px;
+  }
+}
 .carousel-inner {
   max-height: 60rem;
 }
@@ -83,6 +88,15 @@
   .row {
     display: grid;
     justify-content: center;
+  }
+}
+@media (max-width: 462) {
+  .hora {
+    margin-top: 0px;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 }
 .gallery-container {

@@ -68,4 +68,11 @@
        justify-content: center;
      }
 }
-   
+@media (max-width: 462) {
+  .hora{
+    margin-top: 0px;
+  }
+  .logo{
+    margin-left: 10px;
+  }
+}
