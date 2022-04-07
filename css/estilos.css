@@ -7,11 +7,6 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 462) {
-  .logo {
-    margin-left: 10px;
-  }
-}
 .carousel-inner {
   max-height: 60rem;
 }
@@ -92,7 +87,7 @@
 }
 @media (max-width: 462) {
   .hora {
-    margin-top: 0px;
+    margin-top: 5px;
   }
 
   .logo {
