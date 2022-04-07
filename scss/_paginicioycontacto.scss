@@ -68,9 +68,12 @@
        justify-content: center;
      }
 }
-@media (max-width: 462) {
+@media (max-width: 300px) {
   .hora{
-    margin-top: 5px;
+    margin-top: 10px;
+  }
+  .content{
+    font-size: 10px;
   }
   .logo{
     margin-left: 10px;
